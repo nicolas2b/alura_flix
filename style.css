@@ -25,12 +25,14 @@ body {
   background-image: url("./imagem/Background.png");
   background-repeat: no-repeat;
   background-size: contain;
+  align-items: center;
+  text-align: center;
 }
 
 .container {
-  heigth: 100vh;
+  height: 100vh;
   display: grid;
-  grid-template-colums: 50% 50%;
+  grid-template-columns: 50% 50%;
 }
 
 .container_botao{
@@ -42,7 +44,7 @@ body {
   text-decoration: none;
 }
 
-.botão_secundario{
+.botao_secundario{
   background-color: transparent;
   border:2px solid var(--branco-principal);
 }
@@ -66,7 +68,7 @@ body {
 }
 
 .segundario_imagem{
-  widht: 80%;
+  width: 80%;
 }
 
 .segundario{
